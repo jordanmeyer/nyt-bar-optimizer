@@ -6,6 +6,7 @@ library("rhandsontable")
 library("shinyBS")
 library("shinydashboard")
 library("shinyjs")
+library("V8")
 library("lazyeval")
 
 source("functions.R")
