@@ -7,6 +7,7 @@ library("shinyBS")
 library("shinydashboard")
 library("shinyjs")
 library("V8")
+library("markdown")
 library("lazyeval")
 
 source("functions.R")
