@@ -12,7 +12,7 @@ dashboardPage(
     useShinyjs(),
     extendShinyjs(text = showModal),
     sidebarMenu(
-      menuItem("Tile View", tabName = "tileView",
+      menuItem("Recipe View", tabName = "recipeView",
         icon = icon("glass", lib="font-awesome")
       ),
       menuItem("Network View", tabName = "networkView",
@@ -29,7 +29,7 @@ dashboardPage(
 
   dashboardBody(
     tabItems(
-      tabItem(tabName = "tileView",
+      tabItem(tabName = "recipeView",
         uiOutput("tiles"),
         bsModal("aboutModal", h3(" "), "", size = "large",
                 includeMarkdown("www/about.md")
