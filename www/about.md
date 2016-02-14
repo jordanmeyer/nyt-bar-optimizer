@@ -2,7 +2,7 @@
 The NYT Bar Optimizer limits cocktail recipes pulled from <a href="http://cooking.nytimes.com/" target="_blank">The New York Times Cooking Website</a> based on ingredients from your bar's inventory.
 It recommends additional ingredient purchases that unlock the largest number of new drinks.
 
-It is built using <a href="http://www.r-project.org/" target="_blank">R</a> and <a href="http://shiny.rstudio.com/" target="_blank">Shiny</a>. The <a href="http://github.com/jordanmeyer" target="_blank">code</a> is available on github.
+It is built using <a href="http://www.r-project.org/" target="_blank">R</a> and <a href="http://shiny.rstudio.com/" target="_blank">Shiny</a>. The <a href="http://github.com/jordanmeyer/nyt-bar-optimizer" target="_blank">code</a> is available on github.
 
 ### Configure
 The optimizer starts with the **All Ingredients** bar preset, which causes the app to show the full set of NYT cocktail recipes.
