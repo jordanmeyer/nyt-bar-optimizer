@@ -150,7 +150,7 @@ server <- function(input, output, clientData, session) {
       column(12, id="columns",
         lapply(possible.recipes$recipe.link, function(i) {
           a(box(width=NULL,
-            title = HTML(paste0("<div class='image-wrap'><img src='/images/",
+            title = HTML(paste0("<div class='image-wrap'><img src='./images/",
                                 recipe.df$img[recipe.df$recipe.link == i],
                                 "' class='",
                                 recipe.df$img.css[recipe.df$recipe.link == i],
